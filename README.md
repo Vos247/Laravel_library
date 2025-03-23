@@ -1,12 +1,29 @@
-# This is a very basic project, so it might be missing many features. I will keep learning to enhance it.
-library managers (languges: Vietnamese).
-Run Project.
-Use: php artisan to run website.
-//
-For database.
-Use: php artisan migrate to create in phpmyadmin or sql.
-//
-Send mail (i can't automate it).
-Use: ~/mailpit (you need install mailpit).
-Use: php artisan email:overdue (When the user has an overdue book, they will send email to user.)
+# 📚 Library Managers  
 
+🚀 **A Simple Library Management System**  
+> *This is a basic project, and I am continuously learning to enhance it!*  
+
+## 🌍 Language Support  
+- Vietnamese (Tiếng Việt)  
+
+---
+
+## ⚡ How to Run the Project  
+
+### 1️⃣ Start the Server  
+```sh
+php artisan serve
+```
+### 2️⃣ Database Setup:
+```
+php artisan migrate
+```
+### 3️⃣ Sending Email Notifications: (i can't do automate it)
+```
+Install Mailpit: ~/mailpit
+```
+Send overdue book emails:
+```
+php artisan email:overdue.
+```
+### Thank you for checking out this project! Contributions and suggestions are always welcome.
