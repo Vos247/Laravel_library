@@ -66,7 +66,6 @@
                 transform: translateY(0);
             }
         }
-
         /* Hero Section với Image Background và Animation */
         .hero {
             position: relative;
@@ -203,6 +202,7 @@
             padding: 80px 20px;
             max-width: 1200px;
             margin: 0 auto;
+            text-align: center;
         }
 
         .team h2 {
@@ -212,8 +212,10 @@
         }
 
         .team-grid {
-            display: grid;
+            display: flex;
             grid-template-columns: repeat(4, 1fr);
+            justify-content: center;
+            align-items: center;
             gap: 30px;
         }
 
@@ -222,15 +224,22 @@
         }
 
         .member-image {
-            width: 200px;
-            height: 200px;
+            width: 120px; /* Giảm kích thước */
+            height: 120px; /* Giảm kích thước */
             background-color: #f5f5f5;
             border-radius: 50%;
-            margin: 0 auto 20px;
+            margin: 0 auto 15px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #666;
+        }
+
+        .member-image img {
+            width: 100%; /* Đảm bảo ảnh co theo kích thước */
+            height: 100%;
+            object-fit: cover; /* Giữ ảnh không bị méo */
+            border-radius: 50%; /* Đảm bảo ảnh bo tròn */
         }
         /* Responsive Design */
         @media (max-width: 768px) {
@@ -516,22 +525,11 @@
         <h2>Đội Ngũ Của Chúng Tôi</h2>
         <div class="team-grid">
             <div class="team-member">
-                <div class="member-image">Ảnh</div>
+                <div class="member-image">
+                  <img src="img/vinh.jpeg" alt="">
+                </div>
                 <h3>Nguyễn Tăng Thế Vinh</h3>
             </div>
-            <div class="team-member">
-                <div class="member-image">Ảnh</div>
-                <h3>Nguyễn Tô Kiều Anh</h3>
-            </div>
-            <div class="team-member">
-                <div class="member-image">Ảnh</div>
-                <h3>Nguyễn Minh Mẫn</h3>
-            </div>
-            <div class="team-member">
-                <div class="member-image">Ảnh</div>
-                <h3>Huỳnh Đặng Hải Nam</h3>
-            </div>
-        </div>
     </section>
       <!-- Footer -->
       <footer class="footer">
