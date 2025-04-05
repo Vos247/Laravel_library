@@ -8,6 +8,7 @@
 - Japanese (Tiếng Nhật)
 - Spanish (Tiếng Tây Ban Nha)
 - English (Tiếng Anh)
+- Laos  (Tiếng Lào)
 ---
 
 ## ⚡ How to Run the Project  
