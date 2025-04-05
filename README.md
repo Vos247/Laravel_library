@@ -7,6 +7,7 @@
 - Vietnamese (Tiếng Việt)  
 - Japanese (Tiếng Nhật)
 - Spanish (Tiếng Tây Ban Nha)
+- English (Tiếng Anh)
 ---
 
 ## ⚡ How to Run the Project  
