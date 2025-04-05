@@ -3,7 +3,8 @@
 🚀 **A Simple Library Management System**  
 > *This is a basic project, and I am continuously learning to enhance it!*  
 
-## 🌍 Language Support  
+## 🌍 Language Support 
+- Campudia (Tiếng Cam) 
 - Vietnamese (Tiếng Việt)  
 - Japanese (Tiếng Nhật)
 - Spanish (Tiếng Tây Ban Nha)
