@@ -5,7 +5,7 @@
 
 ## 🌍 Language Support  
 - Vietnamese (Tiếng Việt)  
-
+- Japanese (Tiếng Nhật)
 ---
 
 ## ⚡ How to Run the Project  
