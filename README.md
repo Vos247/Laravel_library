@@ -9,6 +9,7 @@
 - Japanese (Tiếng Nhật)
 - Spanish (Tiếng Tây Ban Nha)
 - English (Tiếng Anh)
+- Chinese (Tiếng Trung Quốc)
 ---
 
 ## ⚡ How to Run the Project  
