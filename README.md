@@ -10,6 +10,7 @@
 - Spanish (Tiếng Tây Ban Nha)
 - English (Tiếng Anh)
 - Laos  (Tiếng Lào)
+- Chinese (Tiếng Trung Quốc)
 ---
 
 ## ⚡ How to Run the Project  
